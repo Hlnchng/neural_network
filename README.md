@@ -5,7 +5,7 @@ This project implements a neural network from scratch using only NumPy based on 
 
 ## Features
 - Fully connected feedforward neural network
-- Customizable architecture (number of layers and neurons per layer)
+- Customisable architecture (number of layers and neurons per layer)
 - Activation functions: ReLU, Sigmoid, and Softmax
 - Forward and backward propagation implementation
 - Stochastic gradient descent & Vanilla gradient descent, Adam, Adagrad and RMSprop
