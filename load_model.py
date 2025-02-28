@@ -33,7 +33,7 @@ fashion_mnist_labels = {
     9: "boot"
 }
 
-model = Model.load('test')
+model = Model.load('model_name')
 predictions = model.predict(image_data)
 predictions = model.output_layer_activation.predictions(predictions)
 prediction = fashion_mnist_labels[predictions[0]]
