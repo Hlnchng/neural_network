@@ -1,7 +1,7 @@
-# Neural Network from Scratch using only NumPy
+# Feed-forward Neural Network (FFNN) from Scratch using only NumPy
 A neural network from scratch with no libaries except NumPy. 
 
-This project implements a neural network from scratch using only NumPy based on the book nnfs, without relying on high-level deep learning libraries like TensorFlow or PyTorch. It serves as an educational resource for understanding the fundamental principles of neural networks and deep learning. This neural network was then used to predict images from the fashion MNIST dataset.
+This project implements a FFNN from scratch using only NumPy based on the book nnfs, without relying on high-level deep learning libraries like PyTorch or TensorFlow. It serves as an educational resource for understanding the fundamental principles of neural networks and deep learning. This neural network was then used to predict images from the fashion MNIST dataset.
 
 This project was created to strengthen my fundemental knowledge about how a neural network should work under the hood.
 
@@ -22,3 +22,4 @@ This project was created to strengthen my fundemental knowledge about how a neur
 `model.py` - Puts everything together. Loads in the dataset, establishes the structure of the neural network from neural_network.py, trains the model on the dataset.
 
 `neural_network.py` - is the actual 'engine' of the neural network.
+
